@@ -37,7 +37,7 @@ var newPWstr = newPassword.join("");
  
 var password = "";
 
-for (var i = 0; i < pWlenght; i++) {
+for (var i = 0; i <passwordLength; i++) {
 var genChr = newPWstr.charAt(Math.floor(Math.random() * newPWstr.length));
 password = password.concat(genChr);
 
